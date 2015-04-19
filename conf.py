@@ -14,10 +14,15 @@
 
 import sys
 import os
-DIR = os.path.dirname(__file__)
-sys.path.insert(
-    0, os.path.abspath(
-        os.path.join(DIR, '_themes')))
+
+# Вставка
+locale_dirs = ['locale/']   # path is example but recommended.
+gettext_compact = False     # optional.
+
+# DIR = os.path.dirname(__file__)
+# sys.path.insert(
+#     0, os.path.abspath(
+#         os.path.join(DIR, '_themes')))
 
 # -- General configuration ------------------------------------------------
 

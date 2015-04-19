@@ -1,0 +1,361 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2015, Odoo S.A.
+# This file is distributed under the same license as the Odoo Business package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Business 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-04-19 19:38+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../accounting.rst:5
+msgid "Accounting Memento For Entrepreneurs"
+msgstr ""
+
+#: ../../accounting.rst:11
+msgid "The **Profit and Loss** (P&L) report shows the performance of the company over a specific period (usually the current year)."
+msgstr ""
+
+#: ../../accounting.rst:16
+msgid "The **Gross Profit** equals the revenues from sales minus the cost of goods sold."
+msgstr ""
+
+#: ../../accounting.rst:21
+msgid "**Operating Expenses** (OPEX) include administration, sales and R&D salaries as well as rent and utilities, miscellaneous costs, insurances, … anything beyond the costs of products sold."
+msgstr ""
+
+#: ../../accounting.rst:27
+msgid "The **Balance Sheet** is a snapshot of the company's finances at a specific date (as opposed to the Profit and Loss which is an analysis over a period)"
+msgstr ""
+
+#: ../../accounting.rst:32
+msgid "**Assets** represent the company's wealth, things it owns. Fixed assets includes building and offices, current assets include bank accounts and cash. A client owing money is an asset. An employee is not an asset."
+msgstr ""
+
+#: ../../accounting.rst:38
+msgid "**Liabilities** are obligations from past events that the company will have to pay in the future (utility bills, debts, unpaid suppliers)."
+msgstr ""
+
+#: ../../accounting.rst:43
+msgid "**Equity** is the amount of the funds contributed by the owners (founders or shareholders) plus previously retained earnings (or losses)."
+msgstr ""
+
+#: ../../accounting.rst:48
+msgid "Each year, net profits (or losses) are reported to retained earnings."
+msgstr ""
+
+#: ../../accounting.rst:54
+msgid "What is owned (an asset) has been financed through debts to reimburse (liabilities) or equity (profits, capital)."
+msgstr ""
+
+#: ../../accounting.rst:57
+msgid "A difference is made between buying an assets (e.g. a building) and expenses (e.g. fuel). Assets have an intrinsic value over time, versus expenses having value in them being consumed for the company to \"work\"."
+msgstr ""
+
+#: ../../accounting.rst:64
+msgid "Assets = Liabilities + Equity"
+msgstr ""
+
+#: ../../accounting.rst:67
+msgid "Chart of Accounts"
+msgstr ""
+
+#: ../../accounting.rst:69
+msgid "The **chart of accounts** lists all the accounts, whether they are balance sheet accounts or P&L accounts. Every financial transaction (e.g. a payment, an invoice) impacts accounts by moving value from one account (credit) to an other account (debit)."
+msgstr ""
+
+#: ../../accounting.rst:76
+msgid "Balance = Debit - Credit"
+msgstr ""
+
+#: ../../accounting.rst:84
+msgid "Journal Entries"
+msgstr ""
+
+#: ../../accounting.rst:86
+msgid "Every financial document of the company (e.g. an invoice, a bank statement, a pay slip, a capital increase contract) is recorded as a journal entry, impacting several accounts."
+msgstr ""
+
+#: ../../accounting.rst:90
+msgid "For a journal entry to be *balanced*, the sum of all its debits must be equal to the sum of all its credits."
+msgstr ""
+
+#: ../../accounting.rst:95
+msgid "examples of accounting entries for various transactions. Example:"
+msgstr ""
+
+#: ../../accounting.rst:97
+msgid "Example 1: Customer Invoice:"
+msgstr ""
+
+#: ../../accounting.rst:99
+#: ../../accounting.rst:117
+msgid "Explanation:"
+msgstr ""
+
+#: ../../accounting.rst:101
+msgid "You generate a revenue of $1,000"
+msgstr ""
+
+#: ../../accounting.rst:102
+msgid "You have a tax to pay of $90"
+msgstr ""
+
+#: ../../accounting.rst:103
+msgid "The customer owes $1,090"
+msgstr ""
+
+#: ../../accounting.rst:105
+#: ../../accounting.rst:122
+msgid "Configuration:"
+msgstr ""
+
+#: ../../accounting.rst:107
+msgid "Income: defined on the product, or the product category"
+msgstr ""
+
+#: ../../accounting.rst:108
+#: ../../accounting.rst:125
+msgid "Account Receivable: defined on the customer"
+msgstr ""
+
+#: ../../accounting.rst:109
+msgid "Tax: defined on the tax set on the invoice line"
+msgstr ""
+
+#: ../../accounting.rst:111
+msgid "The fiscal position used on the invoice may have a rule that replaces the Income Account or the tax defined on the product by another one."
+msgstr ""
+
+#: ../../accounting.rst:115
+msgid "Example 2: Customer Payment:"
+msgstr ""
+
+#: ../../accounting.rst:119
+msgid "Your customer owes $1,090 less"
+msgstr ""
+
+#: ../../accounting.rst:120
+msgid "Your receive $1,090 on your bank account"
+msgstr ""
+
+#: ../../accounting.rst:124
+msgid "Bank Account: defined on the related bank journal"
+msgstr ""
+
+#: ../../accounting.rst:130
+#: ../../accounting.rst:217
+#: ../../accounting.rst:227
+#: ../../accounting.rst:243
+msgid "Reconciliation"
+msgstr ""
+
+#: ../../accounting.rst:132
+msgid "Reconciliation is the process of linking journal items of a specific account, matching credits and debits."
+msgstr ""
+
+#: ../../accounting.rst:135
+msgid "Its primary purpose is to link payments to their related invoices in order to mark invoices that are paid and clear the customer statement. This is done by doing a reconciliation on the *Accounts Receivable* account."
+msgstr ""
+
+#: ../../accounting.rst:139
+msgid "An invoice is marked as paid when its Accounts Receivable journal items are reconciled with the related payment journal items."
+msgstr ""
+
+#: ../../accounting.rst:142
+msgid "Reconciliation is performed automatically by the system when:"
+msgstr ""
+
+#: ../../accounting.rst:144
+msgid "the payment is registered directly on the invoice"
+msgstr ""
+
+#: ../../accounting.rst:145
+msgid "the links between the payments and the invoices are detected at the bank matching process"
+msgstr ""
+
+#: ../../accounting.rst:152
+msgid "Customer Statement Example"
+msgstr ""
+
+#: ../../accounting.rst:157
+msgid "Accounts Receivable"
+msgstr ""
+
+#: ../../accounting.rst:157
+#: ../../accounting.rst:217
+#: ../../accounting.rst:227
+#: ../../accounting.rst:243
+msgid "Debit"
+msgstr ""
+
+#: ../../accounting.rst:157
+#: ../../accounting.rst:217
+#: ../../accounting.rst:227
+#: ../../accounting.rst:243
+msgid "Credit"
+msgstr ""
+
+#: ../../accounting.rst:159
+msgid "Invoice 1"
+msgstr ""
+
+#: ../../accounting.rst:159
+#: ../../accounting.rst:219
+#: ../../accounting.rst:221
+#: ../../accounting.rst:229
+#: ../../accounting.rst:231
+#: ../../accounting.rst:245
+#: ../../accounting.rst:247
+msgid "100"
+msgstr ""
+
+#: ../../accounting.rst:161
+msgid "Payment 1.1"
+msgstr ""
+
+#: ../../accounting.rst:161
+msgid "70"
+msgstr ""
+
+#: ../../accounting.rst:163
+msgid "Invoice 2"
+msgstr ""
+
+#: ../../accounting.rst:163
+#: ../../accounting.rst:167
+msgid "65"
+msgstr ""
+
+#: ../../accounting.rst:165
+msgid "Payment 1.2"
+msgstr ""
+
+#: ../../accounting.rst:165
+msgid "30"
+msgstr ""
+
+#: ../../accounting.rst:167
+msgid "Payment 2"
+msgstr ""
+
+#: ../../accounting.rst:169
+msgid "Invoice 3"
+msgstr ""
+
+#: ../../accounting.rst:169
+#: ../../accounting.rst:173
+msgid "50"
+msgstr ""
+
+#: ../../accounting.rst:173
+msgid "Total To Pay"
+msgstr ""
+
+#: ../../accounting.rst:178
+msgid "Bank Reconciliation"
+msgstr ""
+
+#: ../../accounting.rst:180
+msgid "Bank reconciliation is the matching of bank statement lines (provided by your bank) with transactions recorded internally (payments to suppliers or from customers). For each line in a bank statement, it can be:"
+msgstr ""
+
+#: ../../accounting.rst:185
+msgid "matched with a previously recorded payment:"
+msgstr ""
+
+#: ../../accounting.rst:185
+msgid "a payment is registered when a check is received from a customer, then matched when checking the bank statement"
+msgstr ""
+
+#: ../../accounting.rst:189
+msgid "recorded as a new payment:"
+msgstr ""
+
+#: ../../accounting.rst:188
+msgid "the payment's journal entry is created and :ref:`reconciled <accounting/reconciliation>` with the related invoice when processing the bank statement"
+msgstr ""
+
+#: ../../accounting.rst:192
+msgid "recorded as another transaction:"
+msgstr ""
+
+#: ../../accounting.rst:192
+msgid "bank transfer, direct charge, etc."
+msgstr ""
+
+#: ../../accounting.rst:194
+msgid "Odoo should automatically reconcile most transactions, only a few of them should need manual review. When the bank reconciliation process is finished, the balance on the bank account in Odoo should match the bank statement's balance."
+msgstr ""
+
+#: ../../accounting.rst:202
+msgid "Checks Handling"
+msgstr ""
+
+#: ../../accounting.rst:204
+msgid "There are two approaches to manage checks and internal wire transfer:"
+msgstr ""
+
+#: ../../accounting.rst:206
+msgid "Two journal entries and a reconciliation"
+msgstr ""
+
+#: ../../accounting.rst:207
+msgid "One journal entry and a bank reconciliation"
+msgstr ""
+
+#: ../../accounting.rst:211
+msgid "The first journal entry is created by registering the payment on the invoice. The second one is created when registering the bank statement."
+msgstr ""
+
+#: ../../accounting.rst:217
+#: ../../accounting.rst:227
+#: ../../accounting.rst:243
+msgid "Account"
+msgstr ""
+
+#: ../../accounting.rst:219
+#: ../../accounting.rst:245
+msgid "Account Receivable"
+msgstr ""
+
+#: ../../accounting.rst:219
+#: ../../accounting.rst:245
+msgid "Invoice ABC"
+msgstr ""
+
+#: ../../accounting.rst:221
+#: ../../accounting.rst:229
+msgid "Undeposited funds"
+msgstr ""
+
+#: ../../accounting.rst:221
+#: ../../accounting.rst:229
+msgid "Check 0123"
+msgstr ""
+
+#: ../../accounting.rst:231
+#: ../../accounting.rst:247
+msgid "Bank"
+msgstr ""
+
+#: ../../accounting.rst:236
+msgid "A journal entry is created by registering the payment on the invoice. When reconciling the bank statement, the statement line is linked to the existing journal entry."
+msgstr ""
+
+#: ../../accounting.rst:243
+msgid "Bank Statement"
+msgstr ""
+
+#: ../../accounting.rst:247
+msgid "Statement XYZ"
+msgstr ""
+
